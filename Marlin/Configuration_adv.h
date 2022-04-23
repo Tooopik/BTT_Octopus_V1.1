@@ -3831,7 +3831,7 @@
  *
  * Execute certain G-code commands immediately after power-on.
  */
-//#define STARTUP_COMMANDS "M17 Z"
+#define STARTUP_COMMANDS "M17 \nG28 \nG34 \nG29"
 
 /**
  * G-code Macros
