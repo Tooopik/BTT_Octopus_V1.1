@@ -589,7 +589,7 @@
 /**
  * Use one of the PWM fans as a redundant part-cooling fan
  */
-#define REDUNDANT_PART_COOLING_FAN 2  // Index of the fan to sync with FAN 0.
+//#define REDUNDANT_PART_COOLING_FAN 2  // Index of the fan to sync with FAN 0.
 
 // @section extruder
 
@@ -3831,7 +3831,7 @@
  *
  * Execute certain G-code commands immediately after power-on.
  */
-#define STARTUP_COMMANDS "M17 \nG28 \nG34 \nG29"
+//#define STARTUP_COMMANDS "M17 \nG28 \nG34 \nG29"
 
 /**
  * G-code Macros
